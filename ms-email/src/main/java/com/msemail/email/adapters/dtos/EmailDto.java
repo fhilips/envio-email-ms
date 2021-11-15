@@ -1,9 +1,9 @@
-package com.msemail.email.dtos;
-
-import lombok.Data;
+package com.msemail.email.adapters.dtos;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+
+import lombok.Data;
 
 @Data
 public class EmailDto {
